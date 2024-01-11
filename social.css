@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Josefin+Sans:wght@300;400;600&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&display=swap');
+
+
+/* font-family: 'Big Shoulders Display', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'League Spartan', sans-serif;
+font-family: 'Lexend Deca', sans-serif; */
+body{
+    font-size: 16px;
+}
+	.container{
+		margin: 0;
+		padding: 0;
+	    background-color: white;
+	}
+	.top{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 20px;
+	}
+	.intro{
+		text-align: left;
+		width: 50%;
+		margin-left: 5rem;
+	    
+	  } 
+	  .intro h1{
+		font-size: 3rem;
+		color:hsl(300, 43%, 22%);
+		font-family: 'League Spartan', sans-serif;
+	  } 
+	  .intro p{
+		color: hsl(303, 10%, 53%);
+		font-family: 'League Spartan', sans-serif;
+	  }
+	  .review{
+		width:80%;
+		margin-left: 4rem;
+		padding: 3%;
+		padding-bottom: 0%;
+		display: flex;
+		flex-direction: column;
+	  }
+
+	  .box{
+		padding: 0;
+		width: 70%;
+		height: 20%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin-top: 4%;
+		background-color: #f7f2f8;
+		border-radius: 5px;
+		color: orange;
+		border:1px;
+	}
+	.icon-star{
+		width: 40%;
+		display: inline-block;
+	}
+	.intro-star{
+		display: flex;
+		text-align: right;
+	}
+	.fa{
+		margin-left: 5%;
+	}
+	.box p{
+		color: hsl(300, 43%, 22%);
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	.box:nth-child(2){
+		margin-left: 3rem;
+	}
+	.box:nth-child(3){
+		margin-left: 6rem;
+	}	
+	.customer{
+		display: flex;
+		justify-content: space-evenly;
+		margin-top: 20px; 
+	}
+	.cards{
+		width: 300px;
+		height: 180px;
+		background-color:rgb(92, 14, 93) ;
+		border-radius: 10px;
+		padding: 20px 15px;
+        font-family: 'League Spartan', sans-serif;
+	}
+	.pic{
+		
+		border-radius: 100%;
+	}
+	.cards{
+		color: white;
+	}
+	.cards img{
+		width: 12%;
+		border-radius: 50%;
+	}
+	.cards span{
+		color: hsl(333, 80%, 67%);
+		font-family: 'League Spartan', sans-serif;
+		font-weight: lighter;
+	}
+	.second{
+		/* z-index: 1; */
+		margin-top: 15px;
+	}
+	.third{
+		/* z-index: 1; */
+		margin-top: 30px;
+	}
+	

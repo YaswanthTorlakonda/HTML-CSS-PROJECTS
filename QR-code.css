@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto+Slab:wght@400;500&display=swap');
+*{
+  margin:0;
+  padding: 0;
+
+}
+body{
+  background-color: hsl(212, 45%, 89%);
+  font-family: 'Outfit', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.container{
+  margin: 0 auto;
+  max-width: 360px;
+}
+.card img{
+  width: 100%;
+  border-radius: 1rem;
+}
+.card{
+  background-color:  hsl(0, 0%, 100%);
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 0;
+}
+.text{
+  padding: 20px 15px;
+}
+.text h2{
+  color: hsl(218, 44%, 22%);
+  padding-bottom: 14px;
+}
+.text p{
+  color: hsl(220, 15%, 55%);
+}
